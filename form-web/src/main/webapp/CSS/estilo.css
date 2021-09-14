@@ -1,0 +1,45 @@
+fieldset{
+    width: 70%;
+    margin: auto;
+    border-color: rgb(240, 4, 4);
+    
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: darkblue;
+}
+label, input{
+    display: block;
+}
+input[type=text], input[type=email], input[type=password], select{
+    width: 300px;
+}
+input, select{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.alturatexto{
+    height: 20px;
+}
+.bt{
+    border: 2px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+}
+.bt:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+#img-java{
+    float: right;
+    height: 75px;
+    width: 90px;
+
+}

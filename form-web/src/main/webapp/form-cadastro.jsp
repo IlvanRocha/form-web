@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Formulário de Cadastro</title>
  <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <style>
@@ -19,13 +19,13 @@
             <legend>Acessar</legend>
             <img id="img-java" src="img/java lang.png" alt="imagem java">
             <label for="nome">Nome Completo</label>
-            <input type="text" class="alturatexto" id="nome" placeholder="digite seu nome completo" name="nomeCompleto">
+            <input type="text" class="alturatexto" id="NomeCompleto" placeholder="digite seu nome completo" name="NomeCompleto">
 
             <label for="telefone">Telefone</label>
             <input type="number" class="alturatexto" id="telefone" name="fone" placeholder="(61)9.9999-9999"> 
 
             <label for="nascimento">Data de nascimento</label>
-            <input type="date" class="alturatexto" id="dtNascimetno" name="dtNascimento" placeholder="digite sua data de nascimento"> 
+            <input type="date" class="alturatexto" id="DtNascimetno" name="DtNascimento" placeholder="digite sua data de nascimento"> 
 
             <label for="email">email</label>
             <input type="email" class="alturatexto" id="email" name="email" placeholder="digite seu email">

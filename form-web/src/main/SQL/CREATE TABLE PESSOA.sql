@@ -7,4 +7,6 @@ create table pessoa (
 	sexo varchar(255),
 	tecnologias varchar(255),
 	escolaridade varchar(255)
-	);
+);
+	
+select * from pessoa p ;
